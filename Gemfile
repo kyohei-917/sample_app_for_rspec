@@ -28,9 +28,11 @@ group :development do
   gem 'pry-rails'
   gem 'pry-byebug'
   gem 'pry-doc'
-  gem 'rubocop'
+  # gem 'rubocop'
   gem 'rails_best_practices'
   gem 'rspec-rails', '~>4.0.1'
+  gem 'rubocop', require: false
+  gem 'rubocop-rails'
 end
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
